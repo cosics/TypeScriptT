@@ -5,16 +5,8 @@
 let myToDo = { title: "trash", text: "take out trash" };
 
 showToDo(myToDo); */
-
-interface Todo {
-  title: string;
-  text: string;
+function showToDo(todo) {
+    console.log(todo.title + ": " + todo.text);
 }
-
-function showToDo(todo: Todo) {
-  console.log(todo.title + ": " + todo.text);
-}
-
-let myToDo = { title: "trash", text: "take out trash" };
-
+var myToDo = { title: "trash", text: "take out trash" };
 showToDo(myToDo);
